@@ -1,0 +1,23 @@
+{
+  "name": "projeto-locadora-carros",
+  "version": "1.0.0",
+  "description": "- Cada veículo só pode estar locado para um cliente por vez\r - Deve haver um intervalo de um dia entre a entrega e a próxima locação\r - O preço varia de acordo com feriado e final de semana e o responsável pode mudar esse valor\r - Pode renovar a locação por até 3 vezes, no passando o limite de 30 dias\r - A cobrança é antecipada\r - Multa por atraso mais a multa por dia atrasado\r - Deve haver a possibilidade de agendamento prévio para a locação do carro\r - Para locar o carro precisa fazer o login",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "yup": "^0.32.11",
+    "yup-locales": "^1.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
