@@ -129,7 +129,7 @@
 
 #### Dados enviados
 
-- Nome completo
+- Nome
 - Email
 - Telefone
 - Data de nascimento
@@ -140,7 +140,6 @@
     - Validade
     - Código de verificação
 - Senha
-- Verificação de senha
 
 
 #### Dados retornados
